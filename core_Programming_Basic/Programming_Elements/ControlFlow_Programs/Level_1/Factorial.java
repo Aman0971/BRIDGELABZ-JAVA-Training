@@ -5,7 +5,7 @@ public class Factorial{
 		int n = sc.nextInt();
 		int sum1 = 1;
 		if(n <= 0) {
-			System.out.print("Number is not Positive Integer");
+			System.out.print("Number is not Positive Integer.");
 		}
 		else {
 			int temp = n;

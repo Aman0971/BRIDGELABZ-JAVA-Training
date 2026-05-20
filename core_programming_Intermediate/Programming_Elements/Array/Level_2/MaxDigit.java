@@ -12,10 +12,8 @@ public class MaxDigit{
 				index++;
 			}
 			else {
-			  
 			  break;
 			}
-			
 			n  = n / 10;
 		}
 		int largest = 0;

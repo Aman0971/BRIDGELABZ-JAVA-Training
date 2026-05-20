@@ -13,11 +13,9 @@ public class BubbleSort{
 			if(arr[j] > arr[j+1]) {
 				int past = arr[j];
 				arr[j] = arr[j+1];
-				arr[j+1] = past;
-				
+				arr[j+1] = past;		
 			}
 		 }
-		
 	   }
 	  System.out.print("Sorted array is: ");
 	  

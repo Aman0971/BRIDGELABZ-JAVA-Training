@@ -9,8 +9,6 @@ public class SumOfNaturalNum{
 			System.out.print("The sum of "+a+" natural numbers is "+sum);
 		}
 		else {
-			
-		
 		System.out.print("The number "+a+" is not a natural number");
 		}
 	}
