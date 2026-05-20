@@ -1,2 +1,26 @@
+# Ignore Java compiled class files
+*.class
+
+# Ignore log files
+*.log
+
+# Ignore Eclipse project files
 .project
-.class
+.classpath
+.settings/
+.metadata/
+
+# Ignore build folders
+bin/
+build/
+target/
+out/
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
