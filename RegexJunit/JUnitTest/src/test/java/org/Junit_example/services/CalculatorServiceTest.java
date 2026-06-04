@@ -10,7 +10,7 @@ public class CalculatorServiceTest {
     public void beforeEach(){
         System.out.println("Start method execution:");
     }
-    
+
     @After // ye sbhi method ke baad content print krega
     public void afterEach(){
         System.out.println("Execution stop.");
