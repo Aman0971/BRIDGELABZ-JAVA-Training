@@ -19,5 +19,6 @@ public class StringCheckTest {
     public void isPalindromeFalseTest(){
         boolean b = stc.isPalindrome("man");
         Assert.assertFalse(b);
+
     }
 }
