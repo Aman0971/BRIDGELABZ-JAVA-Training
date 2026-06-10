@@ -1,5 +1,6 @@
 package Design_Patterns;
 class SingletonDemo{
+    
     private static SingletonDemo instance; 
 //-->instance variable ek object reference store karega.
     //Static variable class se belong karta hai, object se nahi.
