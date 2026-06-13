@@ -33,7 +33,7 @@ class DevelopmentTeam {
     public DevelopmentTeam(IVersionControl vc) {
         this.versionControl = vc;
     }
-
+    
     public void makeCommit(String message) {
         versionControl.commit(message);
     }

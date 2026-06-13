@@ -24,7 +24,7 @@ class Bike implements Vehicle {
  */
 class VehicleFactory {
     public static Vehicle getVehicle(String value) {
-        if (value.equalsIgnoreCase("car")) {
+        if(value.equalsIgnoreCase("car")) {
             return new Car();
         } else if (value.equalsIgnoreCase("bike")) {
             return new Bike();

@@ -7,7 +7,7 @@ public class Dry{
     }
     public void marks1(){
         int marks1 = 80;
-         System.out.print("Marks1 percentage: ");
+        System.out.print("Marks1 percentage: ");
         double percentage1 = calculatePercentage(marks1);
         System.out.println(percentage1);
     }
@@ -33,7 +33,6 @@ public class Dry{
      Dry dry = new Dry();
       dry.marks1();
       dry.marks2();
-        
     }
 } 
 
