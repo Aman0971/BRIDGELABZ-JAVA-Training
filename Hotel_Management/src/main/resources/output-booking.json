@@ -1,0 +1,22 @@
+[ {
+  "reservationId" : "RES-101",
+  "guestName" : "Kiran Kurhade",
+  "roomNumber" : 101,
+  "nights" : 3,
+  "totalAmount" : 360.0,
+  "status" : "Cancelled"
+}, {
+  "reservationId" : "RES-102",
+  "guestName" : "Sohil Shah",
+  "roomNumber" : 102,
+  "nights" : 2,
+  "totalAmount" : 400.0,
+  "status" : "Confirmed"
+}, {
+  "reservationId" : "RES-103",
+  "guestName" : "Jaykant Shinde",
+  "roomNumber" : 103,
+  "nights" : 4,
+  "totalAmount" : 1800.0,
+  "status" : "Pending"
+} ]

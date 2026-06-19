@@ -15,8 +15,8 @@ public class ConvertStream {
     // convert in list
     Stream<Integer> stream2 =  Stream.of(1,2,3,4,5);
     List<Integer> list = stream2.collect(Collectors.toList());
-      /* for java 16+
-        List<Integer> list = stream1.toList()) */
+      /* for java 16+ ---> this is the new way
+        List<Integer> list = stream1.toList())  */
     System.out.println(list); 
     
     // convert stream to string 

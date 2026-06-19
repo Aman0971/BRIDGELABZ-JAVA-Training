@@ -1,0 +1,3 @@
+Reservation ID : RES-103
+Guest : Jaykant Shinde
+Amount : 1800.0

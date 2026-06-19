@@ -1,0 +1,3 @@
+Reservation ID : RES-101
+Guest : Kiran Kurhade
+Amount : 360.0

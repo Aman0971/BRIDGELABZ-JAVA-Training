@@ -1,0 +1,3 @@
+Reservation ID : RES-102
+Guest : Sohil Shah
+Amount : 400.0
