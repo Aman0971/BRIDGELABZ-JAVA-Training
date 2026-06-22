@@ -16,7 +16,7 @@ class Theater{
     }
 }
 public class Ticket_Booking {
-    public static void main(String[] args) throws InterruptedException{
+    public static void main(String[] args) throws InterruptedException {
         Theater t = new Theater();
         Thread  c1 = new Thread(() -> {
             t.bookSeat("Aman", 10);
@@ -25,7 +25,7 @@ public class Ticket_Booking {
             t.bookSeat("Ankit", 4);
         });
          Thread  c3 = new Thread(() -> {
-            t.bookSeat("Rahul", 1);
+            t.bookSeat("Rahul", 2);
         });
          Thread  c4 = new Thread(() -> {
             t.bookSeat("Vikas", 6);
