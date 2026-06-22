@@ -39,7 +39,6 @@ public class Smart_number_printer {
         B.join();
         C.join();
 
-        System.out.println("Process Completed");
-
-     }
+        System.out.println("Process Completed !");
+    }
 }
