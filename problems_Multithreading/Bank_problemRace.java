@@ -1,6 +1,6 @@
 package problems_Multithreading;
 class Balance{
-    private int  balance = 10000;
+    private int  balance = 10000 ;
     public synchronized void deposite(int amount){
         balance = balance + amount;
         System.out.println(Thread.currentThread().getName()+"-"+"deposite :"+amount+", " +"Balance :"+balance);
@@ -33,6 +33,6 @@ public class Bank_problemRace {
         t1.join();
         t2.join();
 
-        System.out.print("Final balance is :"+b.getResult());
+        System.out.print("Final balance  :"+b.getResult());
     } 
 }
