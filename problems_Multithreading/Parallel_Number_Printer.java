@@ -18,20 +18,17 @@ class Thread_2 implements Runnable{
     }
 }
 public class Parallel_Number_Printer {
-    public static void main(String[] args){
+    public static void main(String[] args) throws InterruptedException{
         
         Thread_1 t1 = new Thread_1();
         t1.start();
 
         Thread t2 = new Thread(new Thread_2());
         t2.start();
-      try{
+      
         t1.join();
         t2.join();
-      }
-      catch(InterruptedException e){
-         System.out.println("thread interupted");
-      }
+     
       System.out.println("main end");
     }
 }
