@@ -127,9 +127,7 @@ public class Main {
                         reservation.getTotalAmount());
             }
 
-            System.out.println(
-                    "\nTotal Revenue : "
-                            + service.calculateTotalRevenue());
+            System.out.println("Total Revenue : " + service.calculateTotalRevenue());
 
             // =============================
             // REMOVE CANCELLED BOOKINGS
@@ -140,15 +138,13 @@ public class Main {
 
             service.evictCancelledBookings();
 
-            System.out.println(
-                    "\nCancelled Bookings Removed");
+            System.out.println("Cancelled Bookings Removed");
 
             // =============================
             // THREAD LIFE CYCLE
             // =============================
 
-            System.out.println(
-                    "\n6. Thread Lifecycle");
+            System.out.println("6. Thread Lifecycle");
 
             ThreadStateTracker
                     .demonstrateLifecycle();
@@ -157,8 +153,7 @@ public class Main {
             // RUNNABLE
             // =============================
 
-            System.out.println(
-                    "\n7. Notification Dispatcher");
+            System.out.println("7. Notification Dispatcher");
 
             Thread notificationThread =
                     new Thread(
@@ -178,11 +173,9 @@ public class Main {
             // VIRTUAL THREADS
             // =============================
 
-            System.out.println(
-                    "\n8. Virtual Thread Simulation");
+            System.out.println("8. Virtual Thread Simulation");
 
-            FileOperations.verifyDirectories(
-                    "receipts");
+            FileOperations.verifyDirectories("receipts");
 
             VirtualThreadSimulator
                     .runHighConcurrencyTest(
@@ -193,15 +186,11 @@ public class Main {
             // JSON WRITING
             // =============================
 
-            System.out.println(
-                    "\n9. Writing JSON Output");
+            System.out.println("9. Writing JSON Output");
 
-            JsonHandler.writeReservationsToJson(
-                    "src/main/resources/output-booking.json",
-                    reservations);
+            JsonHandler.writeReservationsToJson("src/main/resources/output-booking.json", reservations);
 
-            System.out.println(
-                    "\nProject Completed Successfully");
+            System.out.println("Project Completed Successfully");
 
         } catch (Exception e) {
 
